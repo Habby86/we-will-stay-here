@@ -1,0 +1,33 @@
+body,
+html { 
+  background: url(lappy.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Montserrat', roboto;
+}
+
+h1 {
+	color: #E7B10A;
+	text-transform: uppercase;
+}
+
+hr {
+	max-width: 70px;
+	border-width: 3px;
+	border-color: orange;
+}
+
+.btn {
+	background-color: orange;
+	border-color: orange;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn:hover 
+{
+	background-color: green;
+	border-color: green;
+}
